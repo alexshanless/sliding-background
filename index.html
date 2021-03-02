@@ -11,10 +11,33 @@
       integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
       crossorigin="anonymous"
     />
-    <title>My Project</title>
+    <title>Sliding background</title>
   </head>
   <body>
-    <h1>Project Starter</h1>
+    <div class="slider-container">
+      <div
+        class="slide active"
+        style="background-image: url(./img/blue-peacock-wallpaper-1580025.jpg)"
+      ></div>
+      <div class="slider-container">
+        <div
+          class="slide"
+          style="background-image: url(./img/C9A2164C-187D-4258-B862-C51D521170C8.JPG)"
+        ></div>
+        <div class="slider-container">
+          <div
+            class="slide"
+            style="background-image: url(./img/photo-of-hawksbill-sea-turtle-1618606.jpg)"
+          ></div>
+
+          <button class="arrow left-arrow" id="left">
+            <i class="fas fa-arrow-left"></i>
+          </button>
+          <button class="arrow right-arrow" id="right">
+            <i class="fas fa-arrow-right"></i>
+          </button>
+    </div>
+    </div>
 
     <script src="script.js"></script>
   </body>
